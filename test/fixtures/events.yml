@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  end_time: 2014-04-20 00:51:17
+  location: MyString
+  owner: 1
+  timezone: MyString
+  venue: 1
+
+two:
+  name: MyString
+  description: MyString
+  end_time: 2014-04-20 00:51:17
+  location: MyString
+  owner: 1
+  timezone: MyString
+  venue: 1
