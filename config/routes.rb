@@ -1,5 +1,9 @@
 Playdoh::Application.routes.draw do
+  
+  scope 'api' do
+    resources 'events'
+  end
+
   devise_for :users, :controllers => { omniauth_callbacks: 'omniauth_callbacks' }
-  get "welcome/index"
-  root "welcome#index"
+  mount RailsAdmin::Engine => '/_admin', as: 'rails_admin'
 end
