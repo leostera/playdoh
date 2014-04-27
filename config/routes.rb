@@ -5,5 +5,5 @@ Playdoh::Application.routes.draw do
   end
 
   devise_for :users, :controllers => { omniauth_callbacks: 'omniauth_callbacks' }
-  mount RailsAdmin::Engine => '/_admin', as: 'rails_admin'
+  #mount RailsAdmin::Engine => '/_admin', as: 'rails_admin'
 end
