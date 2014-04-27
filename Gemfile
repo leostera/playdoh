@@ -4,7 +4,7 @@ gem 'rails', '4.0.4'
 
 gem 'pg'
 
-gem 'rails_admin'
+#gem 'rails_admin'
 
 gem 'authlogic'
 gem 'scrypt'
